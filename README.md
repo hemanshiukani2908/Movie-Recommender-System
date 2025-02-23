@@ -1,6 +1,6 @@
 <h2><center>Movie Recommender System</center></h2>
 
-<h3><strong>Datsets : </strong>https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata</h3>
+<h3><strong>Datasets : </strong>https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata</h3>
 
 ![Python 3.6+](https://img.shields.io/badge/Python-3.6%2B-brightgreen.svg) ![Streamlit](https://img.shields.io/badge/Streamlit-📺-red)  ![Pandas](https://img.shields.io/badge/Pandas-📊-blue)  ![Requests](https://img.shields.io/badge/Requests-🌍-yellow) ![Machine Learning](https://img.shields.io/badge/ML-🤖-green)  ![TMDB API](https://img.shields.io/badge/TMDB_API-🎥-purple)  ![Cosine Similarity](https://img.shields.io/badge/Cosine_Similarity-📈-pink)
 
