@@ -1,0 +1,19 @@
+digraph "Movie Recommender System" {
+	A [label="Load Dataset
+(movies_dict.pkl, similarity.pkl)" fillcolor=lightcyan shape=parallelogram style=filled]
+	B [label="User Selects Movie
+(Streamlit UI)" fillcolor=lightyellow shape=box style=filled]
+	C [label="Fetch Movie Similarity
+(Precomputed Matrix)" fillcolor=lightcyan shape=parallelogram style=filled]
+	D [label="Retrieve Top 5
+Most Similar Movies" fillcolor=lightyellow shape=box style=filled]
+	E [label="Fetch Posters from
+TMDB API" fillcolor=lightcyan shape=parallelogram style=filled]
+	F [label="Display Recommendations
+(Streamlit UI)" fillcolor=lightyellow shape=box style=filled]
+	A -> B [label="Dataset Loaded" color=gray]
+	B -> C [label="Movie Selected" color=gray]
+	C -> D [label="Compute Similarity" color=gray]
+	D -> E [label="Fetch Posters" color=gray]
+	E -> F [label="Show Results" color=gray]
+}
